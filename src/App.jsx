@@ -54,7 +54,7 @@ function App() {
   const [players, setPlayers] = useState(PLAYERS);
   const gameBoard = deriveGameBoard(gameTurns);
 
-  const winner = deriveWinner(gameBoard, players);
+  const winner = deriveWinner(players, gameBoard);
 
   const isDraw = gameTurns.length === 9 && !winner;
   const activePlayer = deriveActivePlayer(gameTurns);
