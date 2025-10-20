@@ -426,4 +426,26 @@ ol {
   #players button {
     font-size: 0.8rem;
   }
+  #game-over h2 {
+    font-size: 2.5rem; /* تصغير الخط */
+    padding: 1rem;
+    text-align: center;
+    word-wrap: break-word; /* يخلي الكلمة تنزل سطر لو طويلة */
+  }
+  #game-over p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  #game-over {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  #game-over button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+  }
 }
